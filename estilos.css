@@ -1,0 +1,194 @@
+#fondo{
+    width:300px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+}
+#principal{
+    width: 800px;
+    height: 300px;
+    color:white;
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+}
+#principal h1{
+    font-size: 68px;
+    margin: 20px;
+    font-weight: bold;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#pieindex{
+    display: flex;
+    justify-content: center;  
+}
+#pieindex li{
+    margin: 10px;
+    border: 1px red;
+    list-style: none;
+}
+footer ul{
+    display: flex;
+    justify-content: center;  
+}
+footer li{
+    margin: 10px;
+    list-style: none;
+}
+footer ul li a :hover{
+    background-color: aqua;
+}
+.redes2{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.redes2{
+    border-radius: 40px;
+}
+
+.redes{
+    border-radius: 40px;
+    background-color: white;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+#menu li{
+    list-style: none;
+    margin: 12px;
+}
+#menu li a{
+    text-decoration: none;
+    padding:5px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu li  :hover{
+    color: rgb(108, 110, 110);
+    z-index: 10;
+}
+/*Menu2*/
+#menu2{
+    display: flex;
+    justify-content: center;
+}
+#menu2 li{
+    list-style: none;
+    margin: 12px;
+}
+#menu2 li a{
+    text-decoration: none;
+    padding:5px;
+    color:rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iconos{
+    height: 15px;
+    width: 15px;
+}
+
+/*fin de menu2*/
+
+main{
+    width:75%;
+    height: 2000px;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-size: 68px;
+    margin: 15px;
+}
+
+header{
+    position: sticky;
+    z-index: 1000;
+
+    top: 0px;
+    background-color: white;
+}
+
+/*BLOG*/
+.fotoblog{
+    height: 400px;
+    width: 100%;
+    margin-top: 45px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+.minifoto{
+    height: 120px;
+    width: 120px;
+}
+.textoblog{
+    display: flex;
+    align-items: start;
+}
+.textoblog p{
+    margin: 10px;
+}
+.textoblog2{
+    display: flex;
+}
+.textoblog2 img{
+    margin: 10px;
+}
+
+/*Galeria*/
+#galeria{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+figure{
+    
+    padding:20px;
+    text-align: center;
+
+}
+figure img{
+    width:400px;
+    height: 300px;
+    padding:10px;
+    box-shadow: 5px 5px 5px gray;
+}
+figcaption{
+    padding:10px;
+    font-size: 30px;
+    color:blue;
+}
+figure :hover{
+    opacity: 50%;
+}
+
+/*VIDEOS*/
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.videos p{
+    text-align: center;
+}
+.linkvideos{
+    text-align: center;
+}
